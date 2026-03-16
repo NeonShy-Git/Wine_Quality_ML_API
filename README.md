@@ -24,7 +24,8 @@ Para este proyecto, se optó por una arquitectura más robusta que un simple scr
 
 1. **Clonar o crear la carpeta del proyecto:**
    ```bash
-   cd wine_quality_api
+   cd DataSetTraining
+   ```
 
 2. **Crear y activar un entorno virtual:**
     ```bash
@@ -33,10 +34,12 @@ Para este proyecto, se optó por una arquitectura más robusta que un simple scr
     .venv\Scripts\activate
     # En macOS/Linux:
     source .venv/bin/activate
+    ```
 
 3. **Instalar las dependencias necesarias:**
     ```bash
     pip install -r requirements.txt
+    ```
 
 ## 🏃‍♂️ Guía de Ejecución
 
@@ -46,11 +49,13 @@ Sigue este orden para asegurar el correcto funcionamiento de la API:
 Este script descarga el dataset oficial de UCI Machine Learning Repository, procesa los datos, entrena el modelo avanzado y genera los archivos .pkl.
     ```bash
     python model_builder.py
+    ```
 
 2. **Inicio de la API REST**
 Una vez generados los modelos, lanza el servidor:
     ```bash
     python app_server.py
+    ```
 
 La API estará disponible en: http://localhost:8000
 
