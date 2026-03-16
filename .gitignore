@@ -1,0 +1,20 @@
+# Entorno virtual (librerías instaladas)
+.venv/
+venv/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Modelos entrenados y escaladores (Artefactos pesados)
+# Generalmente no se suben porque se generan con train.py
+saved_models/*.pkl
+
+# Variables de entorno y configuración sensible
+.env
+
+# Archivos temporales o de datos de ejemplo
+example_data.txt
+*.log
